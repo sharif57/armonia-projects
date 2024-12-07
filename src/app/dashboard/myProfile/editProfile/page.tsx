@@ -6,7 +6,7 @@ export default function editProfile() {
     return (
         <div className=''>
             <header className="bg-blue-500 p-6 text-2xl font-semibold font-Playfair_Display flex items-center gap-6 ">
-                <Link href={'/myProfile'}>
+                <Link href={'/dashboard/myProfile'}>
                     <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M1.37927 10.6967L11.7504 0.325489L14.3428 2.91782L5.26777 11.9928L14.3428 21.0678L11.7504 23.6602L1.37927 13.289C1.03558 12.9452 0.842499 12.479 0.842499 11.9928C0.842499 11.5067 1.03558 11.0405 1.37927 10.6967Z" fill="#FDFDFD" />
                     </svg>

@@ -118,7 +118,6 @@ export default function Message() {
                                     className="rounded-full border border-gray-300"
                                 />
 
-
                                 <div className="flex-1 font-sans">
                                     <h1 className="text-xl font-medium text-gray-800 mb-2">
                                         {users[selectedUser].name}

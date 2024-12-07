@@ -24,7 +24,7 @@ export default function DashboardLayout({ children }) {
                             <nav className="mt-10 w-full">
 
                                 <div className="mt-6">
-                                    <Link href={'dashboard/myProfile'} >
+                                    <Link href={'/dashboard/myProfile'} >
                                         <button className="bg-[#142F62] w-full py-2 text-white font-bold rounded-md hover:bg-[#1F4B99] transition duration-300">
                                             My Profile
                                         </button>
@@ -32,7 +32,7 @@ export default function DashboardLayout({ children }) {
                                 </div>
 
                                 <div className="mt-6">
-                                    <Link href={'dashboard/message'} >
+                                    <Link href={'/dashboard/message'} >
                                         <button className="bg-[#142F62] w-full py-2 text-white font-bold rounded-md hover:bg-[#1F4B99] transition duration-300">
                                             Messages
                                         </button>
@@ -58,7 +58,7 @@ export default function DashboardLayout({ children }) {
 
                                     {/* Dropdown Menu (Appears on hover) */}
                                     <div className="absolute top-full left-0 w-full bg-white rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300">
-                                        <Link href="dashboard/booking/bookService">
+                                        <Link href="/dashboard/booking/bookService">
                                             <button className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-400">
                                                 Booked Service
                                             </button>
