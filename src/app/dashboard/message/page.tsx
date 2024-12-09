@@ -4,8 +4,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 
 export default function Message() {
-    const [selectedUser, setSelectedUser] = useState(null); // Track the selected user
-
+    const [selectedUser, setSelectedUser] = useState(null); 
     const users = [
         {
             name: 'John Doe',
@@ -40,9 +39,9 @@ export default function Message() {
                 Message
             </header>
             <div className="h-screen mx-auto flex p-10 gap-8">
-                {/* Left Panel */}
+            
                 <div className="w-1/4 ">
-                    {/* Search Input */}
+                    
                     <div className="relative w-full max-w-md mx-auto mt-8 px-2">
                         <input
                             type="text"
@@ -105,11 +104,11 @@ export default function Message() {
                 </div>
 
                 {/* Right Panel */}
-                <div className="w-2/3  border-2  rounded-3xl p-6 bg-[#fafafa]">
+                <div className="w-2/3  border-2  rounded-3xl p-6 h-[700px] bg-[#fafafa]">
                     {selectedUser !== null ? (
                         <div>
                             <div className="flex items-center gap-4 p-4 border-b-2 ">
-                                {/* User Image */}
+                              
                                 <Image
                                     src={users[selectedUser].img}
                                     height={50}
